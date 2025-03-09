@@ -1,0 +1,944 @@
+/*Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&display=swap');
+
+html:not(.insite-editor) body {
+  font-family: "Sanchez", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #000;
+  line-height: 1.1;
+}
+
+@font-face {
+    font-family: 'Halis R';
+    src: url('/assets/fonts/HalisR-Medium.woff2') format('woff2'),
+        url('/assets/fonts/HalisR-Medium.woff') format('woff'),
+        url('/assets/fonts/HalisR-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halis R Book';
+    src: url('/assets/fonts/HalisR-Book.woff2') format('woff2'),
+        url('/assets/fonts/HalisR-Book.woff') format('woff'),
+        url('/assets/fonts/HalisR-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halis R';
+    src: url('/assets/fonts/HalisR-Black.woff2') format('woff2'),
+        url('/assets/fonts/HalisR-Black.woff') format('woff'),
+        url('/assets/fonts/HalisR-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halis R';
+    src: url('/assets/fonts/HalisR-Bold.woff2') format('woff2'),
+        url('/assets/fonts/HalisR-Bold.woff') format('woff'),
+        url('/assets/fonts/HalisR-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halis R';
+    src: url('/assets/fonts/HalisR-Regular.woff2') format('woff2'),
+        url('/assets/fonts/HalisR-Regular.woff') format('woff'),
+        url('/assets/fonts/HalisR-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halis R';
+    src: url('/assets/fonts/HalisR-ExtraLight.woff2') format('woff2'),
+        url('/assets/fonts/HalisR-ExtraLight.woff') format('woff'),
+        url('/assets/fonts/HalisR-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halis R S';
+    src: url('/assets/fonts/HalisR-SBlack.woff2') format('woff2'),
+        url('/assets/fonts/HalisR-SBlack.woff') format('woff'),
+        url('/assets/fonts/HalisR-SBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halis R';
+    src: url('/assets/fonts/HalisR-Thin.woff2') format('woff2'),
+        url('/assets/fonts/HalisR-Thin.woff') format('woff'),
+        url('/assets/fonts/HalisR-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halis R S';
+    src: url('/assets/fonts/HalisR-SLight.woff2') format('woff2'),
+        url('/assets/fonts/HalisR-SLight.woff') format('woff'),
+        url('/assets/fonts/HalisR-SLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halis R';
+    src: url('/assets/fonts/HalisR-Light.woff2') format('woff2'),
+        url('/assets/fonts/HalisR-Light.woff') format('woff'),
+        url('/assets/fonts/HalisR-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halis R S';
+    src: url('/assets/fonts/HalisR-SThin.woff2') format('woff2'),
+        url('/assets/fonts/HalisR-SThin.woff') format('woff'),
+        url('/assets/fonts/HalisR-SThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halis R S';
+    src: url('/assets/fonts/HalisR-SExtraLight.woff2') format('woff2'),
+        url('/assets/fonts/HalisR-SExtraLight.woff') format('woff'),
+        url('/assets/fonts/HalisR-SExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halis R S Book';
+    src: url('/assets/fonts/HalisR-SBook.woff2') format('woff2'),
+        url('/assets/fonts/HalisR-SBook.woff') format('woff'),
+        url('/assets/fonts/HalisR-SBook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halis R S';
+    src: url('/assets/fonts/HalisR-SBold.woff2') format('woff2'),
+        url('/assets/fonts/HalisR-SBold.woff') format('woff'),
+        url('/assets/fonts/HalisR-SBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halis R S';
+    src: url('/assets/fonts/HalisR-SMedium.woff2') format('woff2'),
+        url('/assets/fonts/HalisR-SMedium.woff') format('woff'),
+        url('/assets/fonts/HalisR-SMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halis R S';
+    src: url('/assets/fonts/HalisR-SRegular.woff2') format('woff2'),
+        url('/assets/fonts/HalisR-SRegular.woff') format('woff'),
+        url('/assets/fonts/HalisR-SRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.halis {
+    font-family: 'Halis R';
+}
+
+html:not(.insite-editor) body .logo-holder {
+	width: 113px;
+	flex: unset;
+	max-width: unset;
+	padding: unset;
+}
+
+html:not(.insite-editor) header .LinkMenu_container a {
+	font-size: 18px;
+}
+
+html:not(.insite-editor) header .LinkMenu_container  {
+  font-family: 'Halis R S';
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1;
+  color: #000;
+  text-decoration: none!important;
+}
+
+html:not(.insite-editor) .nav-top-holder #nav-left .LinkMenu_columns {
+    justify-content: flex-end!important;
+    width: 100%;
+}
+
+.LinkMenu_top-level.LinkMenu_columns>li {
+    position: relative;
+    min-width: unset!important;
+    flex: unset!important;
+    flex-basis: unset!important;
+}
+
+html:not(.insite-editor) #header .LinkMenu_container a + ul a:after {
+    display: none!important;
+}
+
+html:not(.insite-editor) #header .LinkMenu_container a + ul a {
+    font-size: 16px;
+    line-height: 1.1;
+    margin-bottom: 15px;
+}
+
+html:not(.insite-editor) #header .LinkMenu_container a + ul {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 300px;
+    background-color: #fff;
+    z-index: 10;
+    text-align: left!important;
+    padding: 0px!important;
+    overflow: hidden;
+    max-height: 0;
+}
+
+html:not(.insite-editor) #header .LinkMenu_container a:hover + ul,
+html:not(.insite-editor) .LinkMenu_columns li:hover ul {
+    max-height: 500px;
+    padding: 15px!important;
+    transition: max-height .4s ease;
+}
+
+html:not(.insite-editor) .nav-top-holder #nav-left,
+html:not(.insite-editor) .nav-top-holder #nav-right {
+	padding-top: 27px!important;
+}
+
+html:not(.insite-editor) #nav-right li {
+	margin-left: 10%;
+}
+
+html:not(.insite-editor) #nav-right li:first-of-type {
+	/*margin-left: unset!important;*/
+}
+
+html:not(.insite-editor) #nav-left li {
+	margin-right: 10%;
+}
+
+html:not(.insite-editor) #nav-left li:last-of-type {
+	/*margin-right: unset!important;*/
+}
+
+html:not(.insite-editor) #layout .nav-top-holder .Grid_row.Containers_row  {
+	justify-content: center!important;
+	align-items: center;
+}
+
+html:not(.insite-editor) .nav-top-holder {
+	margin-bottom: unset!important;
+}
+
+html:not(.insite-editor) .LinkMenu_container a {
+	position: relative;
+}
+
+html:not(.insite-editor) .home-hero .react-parallax {
+	height: calc(100vh - 169px);
+}
+
+html:not(.insite-editor) .home-hero .react-parallax-bgimage {
+	z-index: 1;
+}
+
+html:not(.insite-editor) .home-hero .react-parallax-content {
+	position: relative;
+	z-index: 3;
+}
+
+html:not(.insite-editor) body .home-hero .Button_base {
+	background-color: #A6CE39!important;
+	color: #000;
+	min-width: 448px;
+	max-width: 100%;
+	border: 3px solid #A6CE39!important;
+}
+
+html:not(.insite-editor) body .home-hero .Button_base:hover,
+html.pointer-mouse:not(.insite-editor) .home-hero .ParallaxContentBlock__Content_content-btn-margin:hover {
+	background-color: unset!important;
+}
+
+html:not(.insite-editor) .home-hero .Button_base:hover .btn-cnt {
+	color: #A6CE39!important;
+}
+
+html:not(.insite-editor) .home-hero .Button_base .btn-cnt {
+	color: #000!important;
+}
+
+html:not(.insite-editor) body .green .Button_base {
+    border-color: #3A9948!important;
+}
+
+.link-area {
+    margin-bottom: 54px;
+}
+
+html:not(.insite-editor) body .green .Button_base:hover {
+    background-color: #3A9948!important;
+    color: #B4D853!important;
+}
+
+html:not(.insite-editor) body .Button_base:hover {
+    background-color: #A6CE39!important;
+    color: #fff!important;
+}
+
+html:not(.insite-editor) body .Button_base {
+    font-family: 'Halis R';
+    font-weight: bold;
+    height: 62px;
+    min-width: 286px;
+    display: flex !important;
+    border: 3px solid #A6CE39!important;
+    color: #000!important;
+    padding: 0 30px!important;
+    background-color: unset!important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-transform: uppercase;
+    box-shadow: unset!important;
+    border-radius: unset!important;
+    transition-duration: .3s;
+}
+
+html:not(.insite-editor) .home-hero h1 {
+	color: #fff!important;
+}
+
+html:not(.insite-editor) .react-parallax:before {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.35);
+	content: '';
+	z-index: 2;
+}
+
+html:not(.insite-editor) body h2 {
+    font-size: 43px;
+}
+
+html:not(.insite-editor) body h1,
+html:not(.insite-editor) body h2,
+html:not(.insite-editor) body h3,
+html:not(.insite-editor) body h4 {
+    font-family: 'Halis R';
+    margin: 0 0 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+
+html:not(.insite-editor) body h1 {
+	font-size: 86px;
+}
+
+html:not(.insite-editor) body .LinkMenu_container a:hover {
+	color: #000!important;
+	text-decoration: none!important;
+}
+
+html:not(.insite-editor) .LinkMenu_container a:hover:after {
+	width: 100%;
+}
+
+html:not(.insite-editor) .LinkMenu_container a:after {
+	position: absolute;
+	left: 0;
+	bottom: -5px;
+	width: 0;
+	background-color: #A6CE39;
+	display: block;
+	height: 5px;
+	transition-duration: .3s;
+	content: '';
+}
+
+html:not(.insite-editor) body #header {
+	padding: 24px 0 25px!important;
+}
+
+html:not(.insite-editor) #layout .Grid_row {
+	margin-left: unset!important;
+	margin-right: unset!important;
+}
+
+html:not(.insite-editor) #layout .Grid_container,
+html:not(.insite-editor) .Containers_wrapper.home-hero,
+html:not(.insite-editor) .Containers_wrapper.home-hero div > *,
+html:not(.insite-editor) .Containers_wrapper.home-hero div *,
+html:not(.insite-editor) #header div > *,
+html:not(.insite-editor) #header div *,
+html:not(.insite-editor) .Grid_row.Containers_row,
+html:not(.insite-editor) .Grid_align-self-auto {
+	padding: unset!important;
+}
+
+html:not(.insite-editor) #nav-right li.search-icon {
+	margin-left: 5%;
+}
+
+html:not(.insite-editor) .search-icon {
+    background-image: url('/assets/images/finder.svg'); /* Replace with your image path */
+    background-size: contain; /* Adjust image sizing */
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    color: transparent; /* Hide text */
+    text-indent: -9999px; /* Move text out of view */
+    font-size: 0; /* Ensure text is not visible */
+    display: inline-block; /* Keep block formatting */
+    width: 18px; /* Set width of the image */
+    height: auto;
+    cursor: pointer;
+}
+
+.black {
+    background-color: #000!important;
+    color: #fff;
+}
+
+.black h2 {
+    color: #fff;
+}
+
+.green .use-mill-container {
+    background-color: #B4D853;
+    border-radius: 30px;
+}
+
+.product-inner-area {
+    padding: 0px 5% 52px;
+}
+
+.bg-footer-logo {
+    margin-bottom: unset!important;
+}
+
+body #footer {
+    background-color: #B4D853;
+    padding: 58px 0 21px!important;
+    color: #000!important;
+    font-family: 'Halis R';
+}
+
+.internal-hop-hero {
+    padding: 100px 0 50px;
+    border-top: 1.5px solid #000;
+    text-align: center;
+}
+
+.internal-hop-hero h1 {
+    margin-bottom: unset!important;
+}
+
+.center {
+    text-align: center!important;
+}
+html:not(.insite-editor) .mill95-site-container,
+html:not(.insite-editor) .use-mill-container,
+.inner-mill95-container .Grid_row.Containers_row   {
+    width: 1200px!important;
+    max-width: 90%!important;
+    margin: 0 auto;
+}
+
+.logo-row .Containers_col {
+    margin-bottom: 35px;
+}
+
+html:not(.insite-editor) #layout .inner-mill95-container .Grid_row.Containers_row {
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+
+.bottom-cap {
+    padding-bottom: 100px!important;
+}
+
+.above-tab-section.black {
+    padding-top: 100px!important;
+}
+
+html:not(.insite-editor) .Containers_wrapper:not(.nav-top-holder):not(.above-tab-section):not(.logo-row):not(.no-margin) {
+    margin-bottom: 100px!important;
+}
+
+html:not(.insite-editor) .Containers_wrapper.home-hero {
+    margin-bottom: 50px!important
+}
+
+html:not(.insite-editor) .top-text {
+    margin: 0 auto 95px!important;
+}
+html:not(.insite-editor) .above-block-top-holder {
+    margin: 0 auto 40px!important;
+}
+html:not(.insite-editor) .top-text,
+.above-block-top-holder {
+    width: 812px;
+    max-width: 100%;
+    text-align: center;
+}
+
+html:not(.insite-editor) .above-tab-section {
+    margin-bottom: unset!important;
+}
+
+.regular-top-copy,
+.top-main-text {
+    line-height: 1.4;
+}
+
+.top-text {
+    margin-bottom: 85px;
+}
+
+.hop-left {
+    bottom: -5%;
+    left: 0;
+}
+
+.hop-right {
+    top: -10%;
+    right: 0;
+}
+
+.hop {
+    position: absolute;
+    z-index: 1;
+}
+
+.logo-area img {
+    width: 258px;
+    max-width: 100%;
+}
+
+.v-center {
+    align-items: center;
+}
+
+.h-center {
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.origins-render-bar {
+    justify-content: center;
+    font-size: 16px;
+    align-items: flex-end;
+    line-height: 1.1;
+}
+
+
+#render-menu {
+    position: relative;
+    z-index: 10;
+    justify-content: center;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    margin-top: 25px;
+}
+.pick-origin-label {
+    padding-bottom: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.active-region {
+    border-bottom: 1.5px solid #000;
+    width: 220px;
+    padding-left: 5px;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.drop-down-area-inner {
+    padding: 10px 5px;
+}
+
+.drop-down-area-inner a:last-of-type {
+    margin-bottom: unset;
+}
+
+.drop-down-area-inner a {
+    display: block;
+    width: 100%;
+    color: #000!important;
+    text-decoration: none!important;
+    margin-bottom: 15px;
+}
+
+.active-region.active img {
+    transform: rotate(180deg); 
+}
+
+.active-region img {
+    width: 20px;
+    margin-left: auto;
+    position: relative;
+    transform: rotate(0deg);
+    transition-duration: .3s;
+}
+
+.active-region.active + .drop-down-area {
+    max-height: 500px;
+}
+
+.drop-down-area {
+    max-height: 0;
+    overflow: hidden;
+    transition-duration: .3s;
+    text-align: left;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 100%;
+    background-color: #fff;
+}
+
+.insider-origins {
+    cursor: pointer;
+    font-size: 18px;
+    position: relative;
+    color: #000;
+}
+
+.insider-origins a {
+    color: #000;
+}
+
+html:not(.insite-editor) #layout div .value-text {
+    background-color: #EAE8E1;
+    border-radius: 26px;
+    padding: 65px 0 30px!important;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    height: 100%;
+}
+
+.top-image {
+    mix-blend-mode: darken;
+    position: absolute!important;
+    top: -130px;
+    max-width: 90%;
+    width: 260px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    pointer-events: none;
+}
+
+.square {
+    position: relative;
+}
+
+.square:before {
+    padding-top: 100%;
+    content: '';
+    display: block;
+}
+
+.square img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.rectangle {
+    position: relative;
+}
+
+.image-right-big {
+    width: 55%;
+    position: relative;
+    z-index: 2;
+    margin-left: auto;
+}
+
+.blurb-box {
+    background-color: #fff;
+    border-radius: 22px;
+    padding: 55px 0;
+    width: 609px;
+    max-width: 55%;
+}
+
+.fit-top {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    z-index: 3;
+    height: 100%;
+}
+
+.rectangle img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.rectangle:before {
+    width: 100%;
+    padding-top: 66%;
+    content: '';
+    display: block;
+}
+
+.value-box-image {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -55px;
+    height: 110px;
+    z-index: 2;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.value-box {
+    position: relative;
+    font-size: 16px;
+    line-height: 1.4;
+    width: 23%;
+    margin-right: 2.6%;
+}
+
+.hop-culture-showcase {
+    background-color: #EAE8E1;
+    padding: 100px 0;
+}
+
+.blurb-main-text {
+    margin-bottom: 30px;
+}
+
+.value-box:nth-child(4n){
+    margin-right: unset!important;
+}
+
+.value-text-text-inner {
+    width: 207px;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.blurb-box-text {
+    font-size: 31px;
+    line-height: 1.4;
+    width: 497px;
+    max-width: 90%;
+    margin: 0 auto;
+    font-family: 'Halis R';
+    font-weight: bold;
+}
+
+.logo-row {
+    margin-bottom: unset!important;
+}
+
+.top-tab-tab {
+    color: #000!important;
+    height: 29px;
+    min-width: 146px;
+    max-width: unset;
+    padding: 0 15px;
+    background-color: #A6CE39;
+    display: flex;
+    line-height: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-tab {
+    margin-bottom: 15px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.product-name {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.learn-more-button {
+    position: absolute;
+    bottom: 23px;
+}
+
+.learn-more-button span {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.learn-more-button span:hover:after,
+.product-grid:hover .learn-more-button span:after {
+    width: 0;
+}
+
+.learn-more-button span:after {
+    position: absolute;
+    bottom: -4px;
+    height: 4px;
+    left: 0;
+    width: 100%;
+    transition-duration: .3s;
+    content: '';
+    display: block;
+    background-color: #3A9948;
+}
+
+.purpose-box,
+.alpha-beta-box {
+    margin-top: 12px;
+}
+
+.product-grid label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 2px;
+    font-family: 'Halis R';
+}
+.meta-content {
+    font-size: 14px;
+    line-height: 1.1;
+}
+
+.product-description {
+    font-size: 14px;
+}
+
+.product-grid {
+    position: relative;
+    margin-top: 120px;
+    text-decoration: none!important;
+    color: #000!important;
+    background-color: #F5F5F5;
+    border-radius: 24px;
+    padding: 127px 2.5% 100px;
+}
+
+.address-footer-area {
+    font-size: 19px;
+    line-height: 1.1;
+}
+
+.footer-copyright {
+    font-size: 13px;
+}
+
+/* ## Container Sizes
+--------------------------------------------- */
+
+.one-half {
+    width: 48%;
+    margin-right: 4%;
+}
+.one-half:nth-child(2n){
+    margin-right: unset;
+}
+
+.one-third {
+    width: 31.65%;
+    margin-right: 2.5%;
+}
+
+.one-third:nth-child(3n){
+    margin-right: unset;
+}
+
+.one-quarter {
+    width: 23%;
+    margin-right: 2.5%;
+}
+
+.one-quarter:nth-child(4n){
+    margin-right: unset;
+}
